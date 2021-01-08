@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,visualstudiocode,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,visualstudiocode,python
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -141,20 +137,3 @@ dmypy.json
 
 # profiling data
 .prof
-
-### VisualStudioCode ###
-.vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-*.code-workspace
-
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
-
-### vscode ###
-!.vscode/settings.json
-!.vscode/extensions.json
-
-# End of https://www.toptal.com/developers/gitignore/api/vscode,visualstudiocode,python
