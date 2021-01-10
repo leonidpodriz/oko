@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 fastapi = {extras = ["all"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
+sqlalchemy = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+psycopg2 = "*"
+monobank = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
